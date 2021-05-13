@@ -1,1 +1,3 @@
-# iprimed
+# iprimed In this case I have uploaded 2 files.
+1. In Triangle patter program i used for loop for displaying the star patter program.By decreasing the spaces and by increasing the * numbers to 2 we can achieve the traingle program. For this I declare variable and achieve this.My code is dynamic means if you want to change the number or something no need change the whole program.
+2. In Employee file I have write the program to inserting the values like employee name, age,salary after all the details is inserted all the values can be displayed by using display method in this method i wrote the code for display.After that I want to raise the salary of employees for that also I wrote one program raiseSalary() method.After all the operations is done it will be exit from the execution.
