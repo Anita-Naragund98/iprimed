@@ -33,44 +33,57 @@ public class Anita {
 		display();
 	}
 	public static void main(String[] args) {
-		int c;
-		Anita ts[] = new Anita[3];
-		while(true)
-		{
-		Scanner sc=new Scanner(System.in);
-		System.out.println("1.Create");
-		System.out.println("2.Display");
-		System.out.println("3.RaiseSalary");
-		System.out.println("4.Exit");
-		System.out.println("Enter choice");
-		c = sc.nextInt();
-		if(c==4)
-		break;
+		int c, n;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of details to be entered");
+		n = sc.nextInt();
+		Sunita ts[] = new Sunita[n];
+		boolean b = false;
+		do {
+			System.out.println("1.Create");
+			System.out.println("2.Display");
+			System.out.println("3.RaiseSalary");
+			System.out.println("4.Exit");
+			System.out.println("Enter choice");
+			c = sc.nextInt();
+			if (c == 4)
+				break;
 			switch (c) {
-			case 1:for (int i = 0; i <3; i++) {
-				ts[i] = new Anita();
-				ts[i].create();
-			}
+			case 1:
+				for (int i = 0; i < n; i++) {
+					ts[i] = new Sunita();
+					ts[i].create();
+				}
+				b = true;
 				break;
 			case 2:
-				System.out.println("**** Data Entered as below ****");
-				for (int i = 0; i <3; i++) {
-					ts[i].display();
+				if (b) {
+					System.out.println("**** Data Entered as below ****");
+					for (int i = 0; i < n; i++) {
+						ts[i].display();
+					}
+				} else {
+					System.out.println("No Recors..!!");
 				}
 				break;
 			case 3:
-				for (int j = 0; j <3; j++) {
-					ts[j].raiseSalary();
+				if (b) {
+					for (int j = 0; j < n; j++) {
+						ts[j].raiseSalary();
+					}
+				} else {
+					System.out.println("No Recors..!!");
 				}
 				break;
 			case 4:
-				if(c==4)
-				System.exit(c);
+					System.out.println("Exiting.......");
+					System.exit(c);
 			default:
 				System.out.println("Please make a correct choice......");
 				break;
 			}
-		} while (c != 1);
+		} while (c !=4);
 	}
+
 
 }
