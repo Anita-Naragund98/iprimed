@@ -1,0 +1,111 @@
+
+  
+
+  <!-- <app-two-way></app-two-way>
+This is the Calculator page....
+<router-outlet></router-outlet> 
+
+<app-child [empList]="empList"></app-child>-->
+<!-- <div class="login">
+  <h2 style="text-align:center">Welcome to login page</h2>
+  UserName: <input type="text" [(ngModel)]="uname"/><br><br>
+  Password: <input type="text" [(ngModel)]="password"/><br><br>
+  <input type="button" value="Submit" (click)="handleSub()"/><br>
+</div>
+
+<app-child [uname]="uname"></app-child>
+<app-child [password]="password"></app-child>
+<app-child [msg]="msg"></app-child>
+<router-outlet></router-outlet> 
+
+<app-drctvs></app-drctvs><br>
+<hr><hr>
+<app-bank-axis></app-bank-axis>-->
+<p>Anita</p>
+<div *ngIf="main">
+  <div class="container">
+      <table class="a">
+          <div class="num">
+
+              <table class="card" align="left">
+                  <div class="card1">
+
+
+                      <tr> <a href="#image-1"><img class="image--img" src="./assets/images/car.webp" alt=""></a></tr>
+
+
+                      <button class=b1 style="float: left">Technology</button><br>
+                      <tr></tr><br>
+                      <tr>Why is the Mahindhra Thar designed the way it is?</tr>
+                      <tr> An exploration into the trucks polarising design<br></tr>
+                      <button class="out" (click)="output(1)">Read More...</button><br>
+                      <div class="chip">
+                          <img src="./assets/images/man.jpg" alt="" width="2.0px" height="96">
+                          Carrie Brewers
+                      </div>
+                  </div>
+              </table>
+          </div>
+          <br><br>
+
+          <div class="num">
+              <table class="gold" align="center">
+                  <div class="gold1">
+
+                      <tr> <a href="#image-1"><img class="image--img" src="./assets/images/images.jpg" alt=""></a>
+                      </tr>
+
+
+                      <button class=d1 style="float: left">Popular</button><br>
+                      <tr></tr><br>
+                      <tr> How to Keep Going when You Don't Know Whats next?</tr>
+
+                      <tr> The future can be scary.but there are ways to deal with that fear.</tr><br>
+                      <button class="out" (click)="output(2)">Read More...</button><br>
+                      <div class="lays">
+                          <img src="./assets/images/man.jpg" alt="" width="96" height="96">
+                          Jerome Walton
+                      </div>
+                  </div>
+              </table>
+          </div>
+
+
+          <div class="num">
+              <table class="diamond" align="right">
+                  <div class="diamond1">
+
+
+                      <tr> <a href="#image-1"><img class="image--img" src="./assets/images/lap.jpg" alt=""></a></tr>
+
+
+                      <button class=d1 style="float: left">Design</button><br>
+                      <tr></tr><br>
+                      <tr> 10 Rules of Dashboard Design ?</tr>
+
+                      <tr>Dashboard Design Guidelines</tr><br>
+                      <button class="out" (click)="output(3)">Read More...</button><br>
+                      <div class="bingo">
+                          <img src="./assets/images/man.jpg" alt="" width="96" height="96">
+                          Lewis Daniels
+                      </div>
+                  </div>
+              </table>
+          </div>
+      </table>
+  </div>
+</div>
+<div *ngIf="thar">
+  <button class="but" (click)="mainmethod()">home</button>
+  <app-tesla-car></app-tesla-car>
+
+</div>
+<div *ngIf="parachute">
+  <button class="but" (click)="mainmethod()">home</button>
+  <app-parachute></app-parachute>
+</div>
+
+<div *ngIf="forest">
+  <button class="but" (click)="mainmethod()">home</button>
+  <app-forest></app-forest>
+</div>

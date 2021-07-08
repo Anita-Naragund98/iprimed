@@ -1,0 +1,33 @@
+<body background-color="#f1f3f6">
+  <td align="right"><img src="/assets/images/logo.png" width="100%"" height="200%"></td>
+<table>
+  <tr>
+    <th (click)="show()">Login ID</th>
+    <th (click)="Disp()">Debit card No</th>
+    <th (click)="Display()">MPIN</th>
+  </tr>
+  <div>
+    <form id=login class="login">
+    <tr *ngIf="show1"><input type="text" class="filed" placeholder="Login" required></tr>
+    <br>
+    <tr *ngIf="show1"><input type="password" class="filed" placeholder="Password" required></tr>
+    <br>
+    <tr *ngIf="show1"><button type="submit" class="submit-btn">Login</tr>
+    </form>
+    <form id=debit class="login">
+      <tr *ngIf="disp"><input type="text" class="filed" placeholder="Card No" required></tr>
+      <br>
+      <tr *ngIf="disp"><input type="password" class="filed" placeholder="PIN NO" required></tr>
+      <br>
+      <tr *ngIf="disp"><button type="submit" class="submit-btn">Login</tr>
+      </form>
+      <form id=pin class="login">
+        <tr *ngIf="display"><input type="text" class="filed" placeholder="Login" required></tr>
+        <br>
+        <tr *ngIf="display"><input type="password" class="filed" placeholder="Password" required></tr>
+        <br>
+        <tr *ngIf="display"><button type="submit" class="submit-btn">Login</tr>
+        </form>
+  </div>
+</table>
+</body>

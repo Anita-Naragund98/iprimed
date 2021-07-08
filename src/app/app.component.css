@@ -1,0 +1,212 @@
+.image--overlay:hover{
+  opacity: 1;
+
+}
+img{
+   width:106%;
+   border-radius: 10px 10px 10px 10px;
+   
+}
+.b1{
+   background-color: white;
+  
+   border-radius: 10px;
+}
+.chip{
+   display: inline-block;
+   padding: 0.25px;
+   height: 50px;
+   font-size: 16px;
+   line-height: 50px;
+   border-radius: 25px;
+   background-color: white;
+
+}
+.chip img{
+   float: left;
+   margin: 0 10px 0 -25px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   
+}
+.a{
+ background-color:black;
+}
+.card{
+   width: 2.0px;
+   background-color:white;
+   color:black;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   
+}
+.container{
+   width: 100%;
+   padding: 10px;
+   /* background: #ddd; */
+   margin: 10px;
+}
+.card1{
+   width: 250px;
+   height: 200px;
+   /* background: yellow; */
+   float: left;
+   margin: 0px 10px;
+   transition: 1s;
+   
+}
+.card1:hover{
+   transform:scale(1.2);
+   /* background: white;
+   box-shadow: 2px 2px 2px #000; */
+
+
+}
+
+.gold{
+width: 2.0px;
+background-color:white;
+/* font-color:black;*/
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+
+}
+.gold1{
+width: 250px;
+height: 200px;
+/* background: yellow; */
+float: left;
+margin: 0px 10px;
+transition: 1s;
+
+}
+.gold1:hover{
+transform:scale(1.2);
+/* background: white;
+box-shadow: 2px 2px 2px #000; */
+
+}
+.lays{
+display: inline-block;
+padding: 0.25px;
+height: 50px;
+font-size: 16px;
+line-height: 50px;
+border-radius: 25px;
+background-color:white;
+
+}
+.container{
+width: 100%;
+padding: 10px;
+/* background: #ddd; */
+margin: 10px;
+}
+.lays img{
+float: left;
+margin: 0 10px 0 -25px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+
+}
+.c1{
+background-color:white;
+
+border-radius: 10px;
+}
+img{
+width:106%; height: 190px;
+border-radius: 10px 10px 10px 10px;
+
+}
+.daimond{
+width: 2.0px;
+background-color:grey;
+/* font-color:black;*/
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+
+}
+.diamond1{
+width: 250px;
+height: 200px;
+/* background: yellow; */
+float: left;
+margin: 0px 10px;
+transition: 1s;
+
+}
+.diamond1:hover{
+transform:scale(1.2);
+/* background: white;
+box-shadow: 2px 2px 2px #000; */
+
+}
+.bingo{
+display: inline-block;
+padding: 0.25px;
+height: 50px;
+font-size: 16px;
+line-height: 50px;
+border-radius: 25px;
+background-color: white;
+
+}
+.container{
+width: 100%;
+padding: 10px;
+/* background: #ddd; */
+margin: 10px;
+}
+.bingo img{
+float: left;
+margin: 0 10px 0 -25px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+
+}
+.d1{
+background-color:white;
+
+border-radius: 10px;
+}
+img{
+width:100;
+height: 50;
+border-radius: 10px 10px 10px 10px;
+
+}
+*{
+box-sizing: border-box;
+}
+.container{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+table-layout: fixed;
+border-spacing: 20px;
+}
+.num{
+flex: 30%;
+padding: 10px;
+justify-content: center;
+display: table-cell;
+
+}
+.out{
+border-radius: 5px;
+color: orangered;
+}

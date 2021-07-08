@@ -1,0 +1,35 @@
+table,tr,th,td{
+margin: 20px 40px;
+padding: 16px 16px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.login{
+  top:240px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.field{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 0;
+  border-right: 0;
+  border-top:0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn{
+  width:85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: mediumvioletred;
+  border:0;
+  outline: 0;
+  border-radius: 30px;
+}

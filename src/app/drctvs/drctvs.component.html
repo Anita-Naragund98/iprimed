@@ -1,0 +1,19 @@
+<div>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th *ngIf="show">PhoneNumber</th>
+            <th *ngIf='show'>BooldType</th>
+        </tr>
+        <tr>
+            <td>{{id}}</td>
+            <td>{{name}}</td>
+            <td>{{age}}</td>
+            <td *ngIf="show">{{phone}}</td>
+            <td *ngIf="show">{{blood}}</td>
+        </tr>
+    </table><br>
+    <button (click)="toggle()">{{show? 'Hide' :'Show'}} details</button>
+</div>
